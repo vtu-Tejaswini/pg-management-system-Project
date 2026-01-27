@@ -11,6 +11,8 @@ CREATE TABLE resident (
     checkout_date DATE,
     FOREIGN KEY (room_id) REFERENCES room(room_id)
 );
-insert into resident(res_id, name, p_no, email, address, room_id, join_date, checkout_date)
-values(100, "Shobha",9898989898, "shobha1234@gmail.com", "P-101, Junglighat, Andaman and Nicobar Island, India",1,"20-10-2025", "20-05-2026");
+INSERT INTO resident(res_id, name, p_no, email, address, room_id, join_date, checkout_date)
+VALUES (100,'Shobha', '9898989898', 'shobha1234@gmail.com', 
+'P-101, Junglighat, Andaman and Nicobar Island, India', 
+1, '2025-10-20', '2026-05-20');
 
