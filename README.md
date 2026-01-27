@@ -1,2 +1,2 @@
 # Hostel-management-system-Project
-Full stack project for Hostel management
+Full stack project for pg management
